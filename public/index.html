@@ -125,7 +125,9 @@
     <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
     <script>
         //const socket = io();
-        const socket = io('https://chatbox-sand-tau.vercel.app');
+       const socket = io("https://chatbox-sand-tau.vercel.app", {
+            transports: ["polling"]  // Force polling transport
+        });
         // DOM Elements
         const userList = document.getElementById('userList');
         const chatMessages = document.getElementById('chatMessages');
