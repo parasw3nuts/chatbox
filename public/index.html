@@ -126,7 +126,7 @@
     <script>
         //const socket = io();
        const socket = io("https://chatbox-sand-tau.vercel.app", {
-            transports: ["polling"]  // Force polling transport
+           transports: ["websocket", "polling"] // Force polling transport
         });
         // DOM Elements
         const userList = document.getElementById('userList');
