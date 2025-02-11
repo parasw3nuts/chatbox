@@ -1,6 +1,6 @@
-# Real-Time Chat Room for Unknown Users 🚀
+# Real-Time Chat Room for Unknown Users Github 🚀
 
-Welcome to the **Real-Time Chat Room for Unknown Users**! This project is a fully functional, real-time chat application where users can join anonymously and chat with others in a shared room. Built with modern technologies like **Node.js**, **Socket.IO**, and **React**, this chat room is perfect for developers looking to learn about real-time communication or for anyone who wants to create a simple, anonymous chat experience.
+Welcome to the **Real-Time Chat Room for Unknown Users code in Github**! This project is a fully functional, real-time chat application where users can join anonymously and chat with others in a shared room. Built with modern technologies like **Node.js**, **Socket.IO**, and **React**, this chat room is perfect for developers looking to learn about real-time communication or for anyone who wants to create a simple, anonymous chat experience.
 
 ---
 
