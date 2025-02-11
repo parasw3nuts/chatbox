@@ -35,4 +35,4 @@ Welcome to the **Real-Time Chat Room for Unknown Users code in Github**! This pr
 1. **Clone the Repository**:
    ```bash
    git clone  https://github.com/parasw3nuts/chatbox.git
-   cd chat-room-unknown-users
+   cd chatbox
