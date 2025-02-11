@@ -10,6 +10,12 @@ const server = http.createServer(app);
 app.use(express.static('public'));
 
 const server = http.createServer();
+const io = new Server(server, {
+  cors: {
+    origin: "*", // Allow all origins (update as needed)
+    methods: ["GET", "POST"]
+  }
+});
 
 // Track connected users
 const users = {};
