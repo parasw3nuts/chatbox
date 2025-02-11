@@ -9,11 +9,12 @@ const io = socketIo(server);
 // Serve static files
 app.use(express.static('public'));
 
+const server = http.createServer();
 const io = new Server(server, {
-    cors: {
-        origin: "*", // Allow all origins (change this for production)
-        methods: ["GET", "POST"]
-    }
+  cors: {
+    origin: "https://chatbox-sand-tau.vercel.app",
+    methods: ["GET", "POST"],
+  },
 });
 
 // Track connected users
