@@ -4,13 +4,12 @@ const socketIo = require('socket.io');
 const path = require("path");
 const app = express();
 const server = http.createServer(app);
-const io = socketIo(server);
+ 
 
 // Serve static files
 app.use(express.static('public'));
 
 const server = http.createServer();
- 
 
 // Track connected users
 const users = {};
